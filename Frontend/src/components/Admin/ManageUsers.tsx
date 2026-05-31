@@ -39,6 +39,28 @@ interface ManageUsersProps {
   setSelectedDepartment: React.Dispatch<React.SetStateAction<string | null>>;
 }
 
+interface UserCardProps {
+  user: User;
+  handleRemoveUser: (id: string) => void;
+  handleAddRole: (id: string) => void;
+  handleChangeRole: (id: string, newRole: string) => void;
+  getRoleStyles: (role: string) => string;
+}
+
+interface YearSelectorProps {
+  users: User[];
+  setSelectedYear: React.Dispatch<React.SetStateAction<string | null>>;
+  theme: string;
+}
+
+interface DepartmentSelectorProps {
+  users: User[];
+  selectedYear: string;
+  setSelectedDepartment: React.Dispatch<React.SetStateAction<string | null>>;
+  setSelectedYear: React.Dispatch<React.SetStateAction<string | null>>;
+  theme: string;
+}
+
 export default function ManageUsers({
   selectedYear,
   setSelectedYear,
@@ -185,7 +207,13 @@ export default function ManageUsers({
 }
 
 // 🧩 User Card
-function UserCard({ user, handleRemoveUser, handleAddRole, handleChangeRole, getRoleStyles }: any) {
+function UserCard({
+  user,
+  handleRemoveUser,
+  handleAddRole,
+  handleChangeRole,
+  getRoleStyles,
+}: UserCardProps) {
   return (
     <div className="flex items-center justify-between p-3 bg-zinc-800 rounded-xl border border-zinc-700 shadow">
       <div className="flex items-center gap-4">
@@ -243,7 +271,7 @@ function UserCard({ user, handleRemoveUser, handleAddRole, handleChangeRole, get
 }
 
 // 🧩 Year Selector
-function YearSelector({ users, setSelectedYear, theme }: any) {
+function YearSelector({ users, setSelectedYear, theme }: YearSelectorProps) {
   return (
     <div className="flex gap-6 justify-center">
       {YEARS.map((year) => {
@@ -268,7 +296,13 @@ function YearSelector({ users, setSelectedYear, theme }: any) {
 }
 
 // 🧩 Department Selector
-function DepartmentSelector({ users, selectedYear, setSelectedDepartment, setSelectedYear, theme }: any) {
+function DepartmentSelector({
+  users,
+  selectedYear,
+  setSelectedDepartment,
+  setSelectedYear,
+  theme,
+}: DepartmentSelectorProps) {
   return (
     <div className="flex gap-6 justify-center flex-wrap">
       {DEPARTMENTS.map((dept) => {

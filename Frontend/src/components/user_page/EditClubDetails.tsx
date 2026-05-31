@@ -1,10 +1,16 @@
-import { useState } from "react";
+import { Dispatch, SetStateAction, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from "@/components/ui/dialog";
 import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Input } from "@/components/ui/input";
+import { User } from "@/types/user";
 
-const EditClubDetails = ({ user, setUser }: { user: any; setUser: any }) => {
+interface EditClubDetailsProps {
+  user: User;
+  setUser: Dispatch<SetStateAction<User>>;
+}
+
+const EditClubDetails = ({ user, setUser }: EditClubDetailsProps) => {
   const [role, setRole] = useState(user.role || "");
   const [yearOfPursuing, setYearOfPursuing] = useState(user.yearOfPursuing || "");
   const [yearOfPassing, setYearOfPassing] = useState(user.yearOfPassing || "");
@@ -18,7 +24,7 @@ const EditClubDetails = ({ user, setUser }: { user: any; setUser: any }) => {
       yearOfPassing,
       skills: skills.split(",").map((s: string) => s.trim()).filter(Boolean),
     };
-    setUser((prev: any) => ({ ...prev, ...updatedData })); // Merge updates
+    setUser((prev) => ({ ...prev, ...updatedData })); // Merge updates
     setIsOpen(false); // Close the dialog
   };
 
