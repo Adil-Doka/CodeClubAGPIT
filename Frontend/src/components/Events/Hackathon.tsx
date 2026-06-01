@@ -13,7 +13,6 @@ import {
   Clock,
   Code2,
   ExternalLink,
-  Images,
   MapPin,
   Menu,
   Sparkles,
@@ -204,21 +203,21 @@ const Hackathon = () => {
                 <DropdownMenuContent className="bg-black border-gray-700 text-white">
                   <DropdownMenuItem
                     className="cursor-pointer hover:bg-gray-800"
-                    onClick={() => navigate("/members?board=TY")}
+                    onClick={() => navigate("/members?board=SY")}
                   >
-                    Main Board
+                    Main Board 2025-26
                   </DropdownMenuItem>
                   <DropdownMenuItem
                     className="cursor-pointer hover:bg-gray-800"
-                    onClick={() => navigate("/members?board=SY")}
+                    onClick={() => navigate("/members?board=TY")}
                   >
-                    Assistant Board
+                    Main Board 2024-25
                   </DropdownMenuItem>
                   <DropdownMenuItem
                     className="cursor-pointer hover:bg-gray-800"
                     onClick={() => navigate("/members?board=FY")}
                   >
-                    Last Year Board
+                    Founder Board Members
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
@@ -282,20 +281,29 @@ const Hackathon = () => {
                 <li
                   className="text-gray-300 cursor-pointer hover:text-white"
                   onClick={() => {
-                    navigate("/members?board=TY");
-                    toggleMobileMenu();
-                  }}
-                >
-                  Main Board
-                </li>
-                <li
-                  className="text-gray-300 cursor-pointer hover:text-white"
-                  onClick={() => {
                     navigate("/members?board=SY");
                     toggleMobileMenu();
                   }}
                 >
-                  Assistant Board
+                  Main Board 2025-26
+                </li>
+                <li
+                  className="text-gray-300 cursor-pointer hover:text-white"
+                  onClick={() => {
+                    navigate("/members?board=TY");
+                    toggleMobileMenu();
+                  }}
+                >
+                  Main Board 2024-25
+                </li>
+                <li
+                  className="text-gray-300 cursor-pointer hover:text-white"
+                  onClick={() => {
+                    navigate("/members?board=AB");
+                    toggleMobileMenu();
+                  }}
+                >
+                  Assistant Board Members
                 </li>
                 <li
                   className="text-gray-300 cursor-pointer hover:text-white"
@@ -304,7 +312,7 @@ const Hackathon = () => {
                     toggleMobileMenu();
                   }}
                 >
-                  Last Year Board
+                  Founder Board Members
                 </li>
               </ul>
             </div>
