@@ -1,274 +1,275 @@
 [
-    {
-        "id": "sy-computer-1",
-        "name": "Bhumika Dolnare",
-        "email": "dolnarebhumika4@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/bhumika-dolnare-5b5649329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "role": "Vice president",
-        "domain": "Artifical Intelligence & Machine Learning (python,scikit-learn)",
-        "yearOfStudy": "SY",
-        "yearOfPassing": 2027,
-        "bio": "\n\nVice President under assistant board @CodeClub AGPIT| Java & C Programmer | Exploring ChatGPT & AI Tools for Innovative Solutions\n",
-        "social": {
-            "github": "https://github.com/BhumikaDolnare01",
-            "portfolio": ""
-        },
-                "avatar": "/avatars/bhumika.jpg"
-         },
-    {
-        "id": "sy-computer-2",
-        "name": "Md Shafi Arif Hudewale",
-        "email": "shafihudewale@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/shafihudewale?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "role": "Secretary",
-        "domain": "Artifical Intelligence & Machine Learning (python,scikit-learn)",
-        "yearOfStudy": "SY",
-        "yearOfPassing": 2027,
-        "bio": "I\u2019m a 2nd-year CSE student at AGPIT Solapur and the Secretary of my college's code club. I focus on Python development, web technologies, and entrepreneurship, with interests in data science and Web3.",
-        "social": {
-            "github": "https://github.com/shafihudewale",
-            "portfolio": ""
-        },
-        "avatar": "/avatars/shafi.jpg"
+  {
+    "id": "TY-computer-1",
+    "name": "Bhumika Dolnare",
+    "email": "dolnarebhumika4@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/bhumika-dolnare-5b5649329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "role": "Vice president",
+    "domain": "Artifical Intelligence & Machine Learning",
+    "yearOfStudy": "TY",
+    "yearOfPassing": 2027,
+    "bio": "\n\nFull Stack Developer (MERN)| freelance-friendly | Building real world web apps | GSA'25 | GDG ORGANIZER'25 |",
+    "social": {
+      "github": "https://github.com/BhumikaDolnare01",
+      "portfolio": ""
     },
-    {
-        "id": "sy-computer-3",
-        "name": "Priyanka Kumbhar ",
-        "email": "priyankakumbhar.2405@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/priyanka-kumbhar-637a80286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "role": "DSA Lead",
-        "domain": "FULL STACK  WEB DEVELOPER(HTML, CSS or js or python)",
-        "yearOfStudy": "SY",
-        "yearOfPassing": 2027,
-        "bio": "Web developer ",
-        "social": {
-            "github": "https://github.com/Priya-kumbhar",
-            "portfolio": ""
-        },
-        "avatar": "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg"
+    "avatar": "/avatars/main_board_25-26/bhumika.jpeg"
+  },
+  {
+    "id": "TY-computer-2",
+    "name": "Md Shafi Arif Hudewale",
+    "email": "shafihudewale@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/shafihudewale?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "role": "Secretary",
+    "domain": "Artifical Intelligence & Machine Learning (python,scikit-learn)",
+    "yearOfStudy": "TY",
+    "yearOfPassing": 2027,
+    "bio": "I\u2019m a 2nd-year CSE student at AGPIT Solapur and the Secretary of my college's code club. I focus on Python development, web technologies, and entrepreneurship, with interests in data science and Web3.",
+    "social": {
+      "github": "https://github.com/shafihudewale",
+      "portfolio": ""
     },
-    {
-        "id": "sy-computer-4",
-        "name": "Shoaib Inamdar",
-        "email": "shoaibinamdar14@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/shoaib-inamdar-0416a5263",
-        "role": "Developer",
-        "domain": "FULL STACK  WEB DEVELOPER(HTML, CSS or js or python)",
-        "yearOfStudy": "SY",
-        "yearOfPassing": 2027,
-        "bio": "Currently learning Web development ",
-        "social": {
-            "github": "https://github.com/shoaib-inamdar",
-            "portfolio": ""
-        },
-        "avatar": "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg"
+    "avatar": "/avatars/main_board_25-26/shafi.jpg"
+  },
+  {
+    "id": "TY-computer-3",
+    "name": "Priyanka Kumbhar ",
+    "email": "priyankakumbhar.2405@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/priyanka-kumbhar-637a80286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "role": "DSA Lead",
+    "domain": "FULL STACK  WEB DEVELOPER",
+    "yearOfStudy": "TY",
+    "yearOfPassing": 2027,
+    "bio": "| Full Stack Developer | GenAI |",
+    "social": {
+      "github": "https://github.com/Priya-kumbhar",
+      "portfolio": ""
     },
-    {
-        "id": "sy-computer-5",
-        "name": "Pranoti Balaji Ambat",
-        "email": "pranotiambat2005@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/pranoti-ambat-82b782311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "role": "Developer",
-        "domain": " FULL STACK ANDROID DEVELOPER (kotlin, or java)",
-        "yearOfStudy": "SY",
-        "yearOfPassing": 2027,
-        "bio": "...",
-        "social": {
-            "github": "https://github.com/Pranoti2005",
-            "portfolio": "..."
-        },
-        "avatar": "/avatars/pranoti.jpg"
+    "avatar": "/avatars/main_board_25-26/priyanka.jpg"
+  },
+  {
+    "id": "TY-computer-4",
+    "name": "Shoaib Inamdar",
+    "email": "shoaibinamdar14@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/shoaib-inamdar-0416a5263",
+    "role": "Developer",
+    "domain": "Web Development",
+    "yearOfStudy": "TY",
+    "yearOfPassing": 2027,
+    "bio": "| Full Stack Developer | GenAI |",
+    "social": {
+      "github": "https://github.com/shoaib-inamdar",
+      "portfolio": ""
     },
-    {
-        "id": "sy-computer-6",
-        "name": "Naseem  Irkal ",
-        "email": "naseemirkal@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/naseem-irkal-516881330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "role": "Member",
-        "domain": "FULL STACK  WEB DEVELOPER(HTML, CSS or js or python)",
-        "yearOfStudy": "SY",
-        "yearOfPassing": 2027,
-        "bio": "Passionate about coding and problem-solving, I thrive on exploring new technologies and building innovative projects. At Code Club, I collaborate with like-minded individuals to learn, create, and push the boundaries of what's possible with code. Whether it's web development, or AI . I'm always eager to take on new challenges and grow as a developer!",
-        "social": {
-            "github": "https://github.com/NaseemIrkal",
-            "portfolio": ""
-        },
-        "avatar": "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg"
+    "avatar": "/avatars/main_board_25-26/shoaib.jpeg"
+  },
+  {
+    "id": "TY-computer-5",
+    "name": "Pranoti Balaji Ambat",
+    "email": "pranotiambat2005@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/pranoti-ambat-82b782311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "role": "Developer",
+    "domain": "Android App Designing and developed ",
+    "yearOfStudy": "TY",
+    "yearOfPassing": 2027,
+    "bio": "Android Designer & Developer skilled in Figma, Android Studio, and Photoshop, focused on creating modern and user-friendly mobile applications.",
+    "social": {
+      "github": "https://github.com/Pranoti2005",
+      "portfolio": "..."
     },
-    {
-        "id": "sy-computer-7",
-        "name": "Aditi Kulkarni",
-        "email": "kulkarniaditi1709@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/aditi-kulkarni-9b9b72330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "role": "Member",
-        "domain": "FULL STACK  WEB DEVELOPER(HTML, CSS or js or python)",
-        "yearOfStudy": "SY",
-        "yearOfPassing": 2027,
-        "bio": "Member in Code club",
-        "social": {
-            "github": "https://github.com/aditi853",
-            "portfolio": ""
-        },
-        "avatar": "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg"
+    "avatar": "/avatars/main_board_25-26/pranoti.jpeg"
+  },
+ 
+  {
+    "id": "TY-computer-6",
+    "name": "Nagesh Kondabattin ",
+    "email": "nageshkondabattin@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/nagesh-kondabattin-a43ba7285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "role": "Member",
+    "domain": " FULL STACK ANDROID DEVELOPER (kotlin, or java)",
+    "yearOfStudy": "TY",
+    "yearOfPassing": 2027,
+    "bio": "..",
+    "social": {
+      "github": "https://github.com/NageshKondabattin141",
+      "portfolio": ".."
     },
-    {
-        "id": "sy-computer-8",
-        "name": "Md.Saif ",
-        "email": "saifnaikwadi2005@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/saifnaikwadi",
-        "role": "President",
-        "domain": "FULL STACK  WEB DEVELOPER(HTML, CSS or js or python)",
-        "yearOfStudy": "SY",
-        "yearOfPassing": 2027,
-        "bio": "I am a  B.Tech CSE student. As the Assitant Board President of the Code Club, my goal is to foster a community where students can learn, collaborate, and grow their programming skills. I have a solid foundation in C, C++, and Java and am currently expanding my knowledge in Data Structures, Web Development, and emerging technologies.",
-        "social": {
-            "github": "https://github.com/Saif1107",
-            "portfolio": ""
-        },
-                "avatar": "/avatars/saif.jpg"
+    "avatar": "/avatars/main_board_25-26/nagesh.jpg"
+  },
+  {
+    "id": "TY-computer-7",
+    "name": "Abhijeet panchal ",
+    "email": "panchalabhijeet4315@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/abhijeet-panchal-39799a330",
+    "role": "Member",
+    "domain": "Web developement ",
+    "yearOfStudy": "TY",
+    "yearOfPassing": 2027,
+    "bio": "Web Developer | Building the front-end and back-end of the modern web.",
+    "social": {
+      "github": "https://github.com/panchalap",
+      "portfolio": ".."
     },
-    {
-        "id": "sy-computer-9",
-        "name": " Meghana Sidgiddi",
-        "email": "meghanasidgiddi@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/meghana-sidgiddi-655774330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "role": "Member",
-        "domain": "FULL STACK  WEB DEVELOPER(HTML, CSS or js or python)",
-        "yearOfStudy": "SY",
-        "yearOfPassing": 2027,
-        "bio": "Passionate about building responsive and user-friendly websites. Skilled in front-end and back-end technologies, constantly learning and exploring the latest web trends. ",
-        "social": {
-            "github": "https://github.com/Meghanasid55",
-            "portfolio": ""
-        },
-        "avatar": "/avatars/meghana.jpg"
+    "avatar": "/avatars/main_board_25-26/abhijeet.png"
+  },
+  {
+    "id": "TY-computer-8",
+    "name": "Adil Doka ",
+    "email": "adildoka35@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/adil-doka?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "role": "Member",
+    "domain": "FULL STACK  WEB DEVELOPER(HTML, CSS or js or python)",
+    "yearOfStudy": "TY",
+    "yearOfPassing": 2027,
+    "bio": "--A Tech enthusiastic person || BTech CSE Student || aspiring web developer || DSA ||",
+    "social": {
+      "github": "https://github.com/Adil-Doka",
+      "portfolio": ""
     },
-    {
-        "id": "sy-computer-10",
-        "name": "Nagesh Kondabattin ",
-        "email": "nageshkondabattin@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/nagesh-kondabattin-a43ba7285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "role": "Member",
-        "domain": " FULL STACK ANDROID DEVELOPER (kotlin, or java)",
-        "yearOfStudy": "SY",
-        "yearOfPassing": 2027,
-        "bio": "..",
-        "social": {
-            "github": "https://github.com/NageshKondabattin141",
-            "portfolio": ".."
-        },
-        "avatar": "/avatars/nagesh.jpg"
+    "avatar": "/avatars/main_board_25-26/adil.jpg"
+  },
+  {
+    "id": "TY-computer-9",
+    "name": "Aadam Muzammil ",
+    "email": "aadammuzammil0@gmail.com",
+    "linkedin": "",
+    "role": "Member",
+    "domain": "Java Full Stack Developer",
+    "yearOfStudy": "TY",
+    "yearOfPassing": 2027,
+    "bio": "Computer Engineering Student | Full-Stack Developer | AI/ML Enthusiast | Linux  Enthusiastic about developing robust, user-centric applications and exploring the transformative potential of Artificial Intelligence. Dedicated to continuous learning, technological innovation, and delivering impactful solutions.",
+    "social": {
+      "github": "https://github.com/MuzammilAadam?tab=projects",
+      "portfolio": "https://github.com/code50/159444029"
     },
-    {
-        "id": "sy-computer-11",
-        "name": "Abhijeet panchal ",
-        "email": "panchalabhijeet4315@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/abhijeet-panchal-39799a330",
-        "role": "Member",
-        "domain": "FULL STACK  WEB DEVELOPER(HTML, CSS or js or python)",
-        "yearOfStudy": "SY",
-        "yearOfPassing": 2027,
-        "bio": "..",
-        "social": {
-            "github": "https://github.com/panchalap",
-            "portfolio": ".."
-        },
-        "avatar": "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg"
+    "avatar": "/avatars/main_board_25-26/muzammil.jpeg"
+  },
+   {
+    "id": "TY-computer-10",
+    "name": "Avez Chadchan",
+    "email": "avezchadchan@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/avez-chadchan-924040276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "role": "Member",
+    "domain": "Flutter & Full-Stack Development",
+    "yearOfStudy": "TY",
+    "yearOfPassing": 2027,
+    "bio": "Full-Stack Developer | Android Developer (Flutter) | Building Scalable Applications",
+    "social": {
+      "github": "https://github.com/AvezChadchan",
+      "portfolio": "https://avez-portfolio.vercel.app/"
     },
-    {
-        "id": "sy-computer-12",
-        "name": "Adil Doka ",
-        "email": "adildoka35@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/adil-doka?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "role": "Member",
-        "domain": "FULL STACK  WEB DEVELOPER(HTML, CSS or js or python)",
-        "yearOfStudy": "SY",
-        "yearOfPassing": 2027,
-        "bio": "--A Tech enthusiastic person || BTech CSE Student || aspiring web developer || DSA ||",
-        "social": {
-            "github": "https://github.com/Adil-Doka",
-            "portfolio": ""
-        },
-        "avatar": "/avatars/adil.jpg"
+    "avatar": "/avatars/main_board_25-26/avez.png"
+  },
+   {
+    "id": "TY-computer-11",
+    "name": "Naseem  Irkal ",
+    "email": "naseemirkal@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/naseem-irkal-516881330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "role": "Member",
+    "domain": "Web development ",
+    "yearOfStudy": "TY",
+    "yearOfPassing": 2027,
+    "bio": "BTech Computer Engineering student passionate about Web Development and software engineering. Currently building responsive web applications and continuously enhancing problem-solving skills.",
+    "social": {
+      "github": "https://github.com/NaseemIrkal",
+      "portfolio": ""
     },
-    {
-        "id": "sy-computer-13",
-        "name": "Aadam Muzammil ",
-        "email": "aadammuzammil0@gmail.com",
-        "linkedin": "",
-        "role": "Member",
-        "domain": "FULL STACK  WEB DEVELOPER(HTML, CSS or js or python)",
-        "yearOfStudy": "SY",
-        "yearOfPassing": 2027,
-        "bio": "No",
-        "social": {
-            "github": "https://github.com/MuzammilAadam?tab=projects",
-            "portfolio": "https://github.com/code50/159444029"
-        },
-        "avatar": "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg"
+    "avatar": "/avatars/main_board_25-26/naseem.jpeg"
+  },
+  {
+    "id": "TY-computer-12",
+    "name": "Aditi Kulkarni",
+    "email": "kulkarniaditi1709@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/aditi-kulkarni-9b9b72330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "role": "Member",
+    "domain": "FULL STACK  WEB DEVELOPER",
+    "yearOfStudy": "TY",
+    "yearOfPassing": 2027,
+    "bio": "Passionate about Full Stack Development and AI & ML",
+    "social": {
+      "github": "https://github.com/aditi853",
+      "portfolio": ""
     },
-    {
-        "id": "sy-computer-14",
-        "name": "Tanushree Waghmare ",
-        "email": "tanushreewaghmare11@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/tanushree-waghmare-a35988330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "role": "Member",
-        "domain": "FULL STACK  WEB DEVELOPER(HTML, CSS or js or python)",
-        "yearOfStudy": "SY",
-        "yearOfPassing": 2027,
-        "bio": "Tanushree Waghmare ",
-        "social": {
-            "github": "https://github.com/Tanuwaghmare88",
-            "portfolio": ""
-        },
-        "avatar": "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg"
+    "avatar": "/avatars/main_board_25-26/aditi.png"
+  },
+  {
+    "id": "TY-computer-13",
+    "name": "Md.Saif ",
+    "email": "saifnaikwadi2005@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/saifnaikwadi",
+    "role": "President",
+    "domain": "FULL STACK  WEB DEVELOPER",
+    "yearOfStudy": "TY",
+    "yearOfPassing": 2027,
+    "bio": "Full Stack Web Developer",
+    "social": {
+      "github": "https://github.com/Saif1107",
+      "portfolio": ""
     },
-    {
-        "id": "sy-computer-15",
-        "name": "Anjali Ajit Mane",
-        "email": "anjaliajitmane22@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/anjali-mane-7161ab2bb",
-        "role": "Member",
-        "domain": " FULL STACK ANDROID DEVELOPER (kotlin, or java)",
-        "yearOfStudy": "SY",
-        "yearOfPassing": 2027,
-        "bio": "Member of Code club under assistant board | C programmer java programmer | exploring game\u00a0development.",
-        "social": {
-            "github": "https://github.com/Anjalim2228",
-            "portfolio": "."
-        },
-        "avatar": "/avatars/anjali.jpg"
+    "avatar": "/avatars/main_board_25-26/saif.jpeg"
+  },
+  {
+    "id": "TY-computer-14",
+    "name": " Meghana Sidgiddi",
+    "email": "meghanasidgiddi@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/meghana-sidgiddi-655774330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "role": "Member",
+    "domain": "Web development",
+    "yearOfStudy": "TY",
+    "yearOfPassing": 2027,
+    "bio": "Motivated developer focused on web development and AI. Eager to create innovative and impactful tech solutions.",
+    "social": {
+      "github": "https://github.com/Meghanasid55",
+      "portfolio": ""
     },
-    {
-        "id": "sy-computer-16",
-        "name": "Avez Chadchan",
-        "email": "avezchadchan@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/avez-chadchan-924040276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "role": "Member",
-        "domain": " FULL STACK ANDROID DEVELOPER (kotlin, or java)",
-        "yearOfStudy": "SY",
-        "yearOfPassing": 2027,
-        "bio": "Software Developer | Android Enthusiast | Web Developer",
-        "social": {
-            "github": "https://github.com/AvezChadchan",
-            "portfolio": "https://avezchadchan.github.io/My-Portfolio/"
-        },
-        "avatar": "/avatars/avez.jpg"
+    "avatar": "/avatars/main_board_25-26/meghana.jpeg"
+  },
+  {
+    "id": "TY-computer-15",
+    "name": "Anjali Ajit Mane",
+    "email": "anjaliajitmane22@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/anjali-mane-7161ab2bb",
+    "role": "Member",
+    "domain": "Full stack web development ",
+    "yearOfStudy": "TY",
+    "yearOfPassing": 2027,
+    "bio": "Aspiring Web Developer with a strong foundation in modern web technologies, focused on creating scalable and efficient solutions.",
+    "social": {
+      "github": "https://github.com/Anjalim2228",
+      "portfolio": "."
     },
-    {
-        "id": "sy-computer-17",
-        "name": "Ayaan khairdi ",
-        "email": "ayaankhairdi238@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/ayaan-khairdi-936aba289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "role": "Member",
-        "domain": "FULL STACK  WEB DEVELOPER(HTML, CSS or js or python)",
-        "yearOfStudy": "SY",
-        "yearOfPassing": 2027,
-        "bio": "\"Passionate about coding and problem-solving, I\u2019m always looking for new challenges to tackle and ways to improve my skills. I enjoy collaborating with others in the Code Club to learn, share ideas, and create innovative projects. Whether it\u2019s mastering a new language or debugging code, I\u2019m always eager to grow as a developer and contribute to the community!\"",
-        "social": {
-            "github": "https://github.com/Ayaankhairdi",
-            "portfolio": ""
-        },
-        "avatar": "/avatars/ayaan.jpg"
-    }
+    "avatar": "/avatars/main_board_25-26/anjali.jpeg"
+  },
+ {
+    "id": "TY-computer-16",
+    "name": "Tanushree Waghmare ",
+    "email": "tanushreewaghmare11@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/tanushree-waghmare-a35988330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "role": "Member",
+    "domain": "Web Development",
+    "yearOfStudy": "TY",
+    "yearOfPassing": 2027,
+    "bio": "Aspiring Software Developer | Interested in Machine Learning, Programming, and creating innovative solutions through technology.",
+    "social": {
+      "github": "https://github.com/Tanuwaghmare88",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/main_board_25-26/tanushree.jpeg"
+  },
+  {
+    "id": "TY-computer-17",
+    "name": "Ayaan khairdi ",
+    "email": "ayaankhairdi238@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/ayaan-khairdi-936aba289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "role": "Member",
+    "domain": "AI/ML",
+    "yearOfStudy": "TY",
+    "yearOfPassing": 2027,
+    "bio": "Data Analytics & Web Development Enthusiast | Python, SQL, Excel, Power BI, HTML, CSS, JavaScript | Transforming data into insights and ideas into web solutions|",
+    "social": {
+      "github": "https://github.com/Ayaankhairdi",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/main_board_25-26/ayaan.png"
+  }
 ]

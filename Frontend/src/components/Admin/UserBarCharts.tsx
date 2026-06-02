@@ -22,7 +22,18 @@ const departmentStats = [
   { dept: "ELC", degree: 40, diploma: 30 },
 ];
 
-const CustomTooltip = ({ active, payload, label }: any) => {
+interface ChartTooltipPayload {
+  name?: string;
+  value?: number | string;
+}
+
+interface CustomTooltipProps {
+  active?: boolean;
+  payload?: ChartTooltipPayload[];
+  label?: string;
+}
+
+const CustomTooltip = ({ active, payload, label }: CustomTooltipProps) => {
   if (active && payload && payload.length) {
     return (
       <div className="rounded-md bg-zinc-800 border border-indigo-600 px-3 py-2 text-sm text-white shadow-md">

@@ -1,0 +1,276 @@
+[
+   {
+    "id": "sy-8",
+    "name": "Bhavana Kambale",
+    "email": "member@example.com",
+    "linkedin": "https://www.linkedin.com/in/bhavana-kambale-a43a15383?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "role": "Vice President ",
+    "domain": "Android Development [Flutter , Java]",
+    "yearOfStudy": "SY",
+    "yearOfPassing": 2027,
+    "bio": "Passionate about Android development and data analytics, with an interest in building user-friendly applications and deriving meaningful insights from data. Enthusiastic about technology, problem-solving, and continuous learning.",
+    "social": {
+      "github": "https://github.com/kambalebhavana14-gif",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/assistant_board/bhavana.jpeg"
+  },
+   {
+    "id": "sy-14",
+    "name": "Anushka Sindagi",
+    "email": "member@example.com",
+    "linkedin": "https://www.linkedin.com/in/anushka-sindagi-662b22316?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "role": "Secretary",
+    "domain": "Artificial intelligence and machine learning",
+    "yearOfStudy": "SY",
+    "yearOfPassing": 2027,
+    "bio": "Exploring AIML trends",
+    "social": {
+      "github": "https://github.com/Anushka-1211",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/assistant_board/anushka.png"
+  },
+   {
+    "id": "sy-10",
+    "name": "Pritesh Shriram",
+    "email": "member@example.com",
+    "linkedin": "https://www.linkedin.com/in/pritesh-shriram-449824383?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    "role": "Android Lead",
+    "domain": "Android",
+    "yearOfStudy": "SY",
+    "yearOfPassing": 2027,
+    "bio": "Passionate Android developer dedicated to building user-friendly and efficient mobile applications. Currently focused on mobile technology and software innovation.",
+    "social": {
+      "github": "https://github.com/priteshshriram1234",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/assistant_board/pritesh.jpeg"
+  },
+   {
+    "id": "sy-6",
+    "name": "Eshaan Waghmare",
+    "email": "member@example.com",
+    "linkedin": "https://www.linkedin.com/in/eshaan-waghmare-952a7a30a?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+    "role": "Web Development Lead",
+    "domain": "Web Development and Artificial Intelligence",
+    "yearOfStudy": "SY",
+    "yearOfPassing": 2027,
+    "bio": "CSIT student passionate about web development. Skilled in HTML CSS and JavaScript",
+    "social": {
+      "github": "https://github.com/waghmareeshaan-cmd",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/assistant_board/eshaan.png"
+  },
+   {
+    "id": "sy-5",
+    "name": "Harsh Madhekar",
+    "email": "member@example.com",
+    "linkedin": "https://www.linkedin.com/in/harsh-madhekar-5a9b11337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "role": "DSA Lead",
+    "domain": "DSA",
+    "yearOfStudy": "SY",
+    "yearOfPassing": 2027,
+    "bio": "I’m a B.Tech CSE student passionate about problem-solving, backend development, and scalable systems. Currently learning Full Stack Development using Java and Spring Boot, with a focus on building efficient and impactful applications.",
+    "social": {
+      "github": "https://github.com/HarshMadhekar09",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/assistant_board/harsh.png"
+  },
+  {
+    "id": "sy-1",
+    "name": "Shahid Yadgir",
+    "email": "member@example.com",
+    "linkedin": "https://www.linkedin.com/in/md-shahid-yadgir-6784bb1b7?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "role": "Assistant Board Member",
+    "domain": "Web Development",
+    "yearOfStudy": "SY",
+    "yearOfPassing": 2027,
+    "bio": "A Tech enthusiastic person || BTech CSE Student || aspiring web developer",
+    "social": {
+      "github": "https://github.com/mdshahidyadgir",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/assistant_board/shahid.jpeg"
+  },
+  {
+    "id": "sy-2",
+    "name": "Rahul Gunjite",
+    "email": "member@example.com",
+    "linkedin": "https://www.linkedin.com/in/rahul-gunjite-5a2825383?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "role": "Assistant Board Member",
+    "domain": "DSA",
+    "yearOfStudy": "SY",
+    "yearOfPassing": 2027,
+    "bio": "CSIT Student | Python, Front-End & Cybersecurity Enthusiast passionate about building secure and user-friendly digital solutions.",
+    "social": {
+      "github": "https://github.com/rahulgunjite01",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/assistant_board/rahul.png"
+  },
+  {
+    "id": "sy-3",
+    "name": "Bhanuprasad Miranam",
+    "email": "member@example.com",
+    "linkedin": "https://www.linkedin.com/in/bhanuprasad-miranam",
+    "role": "Assistant Board Member",
+    "domain": "DSA",
+    "yearOfStudy": "SY",
+    "yearOfPassing": 2027,
+    "bio": "Passionate about Data Structures and Algorithms (DSA) with strong problem-solving and coding skills. Skilled in optimizing solutions and learning efficient algorithms.",
+    "social": {
+      "github": "https://github.com/bhanuprasad3012",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/assistant_board/bhanuprasad.png"
+  },
+  {
+    "id": "sy-4",
+    "name": "Sanika Jadhav",
+    "email": "member@example.com",
+    "linkedin": "https://www.linkedin.com/in/sanika-jadhav-a4b34a335",
+    "role": "Assistant Board Member",
+    "domain": "Artifical Intelligence and Machine Learning",
+    "yearOfStudy": "SY",
+    "yearOfPassing": 2027,
+    "bio": "Aspiring AI & ML Engineer passionate about building innovative and impactful tech solutions. Skilled in Python and continuously learning emerging technologies, problem-solving, and real-world AI applications",
+    "social": {
+      "github": "https://github.com/jadhavsanika806-debug",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/assistant_board/sanika.jpeg"
+  },
+  {
+    "id": "sy-7",
+    "name": "Shreya Nimbalkar",
+    "email": "member@example.com",
+    "linkedin": "https://www.linkedin.com/in/shreya-nimbalkar-467387384?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "role": "Assistant Board Member",
+    "domain": "AI and Cybersecurity",
+    "yearOfStudy": "SY",
+    "yearOfPassing": 2027,
+    "bio": "Computer science student with strong interest in AI and Cybersecurity",
+    "social": {
+      "github": "https://github.com/shreyanimbalkar0910-boop",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/assistant_board/shreya.png"
+  },
+  {
+    "id": "sy-9",
+    "name": "Megha chalwadi",
+    "email": "member@example.com",
+    "linkedin": "https://www.linkedin.com/in/megha-chalwadi-0966a7383?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "role": "Assistant Board Member",
+    "domain": "Web development",
+    "yearOfStudy": "SY",
+    "yearOfPassing": 2027,
+    "bio": "Web developer focused on building clean code and responsive web applications using HTML, CSS, JavaScript,PHP and MySQL",
+    "social": {
+      "github": "https://github.com/meghachalwadi7",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/assistant_board/megha.png"
+  },
+ 
+  {
+    "id": "sy-11",
+    "name": "Tanishk Chandrakant Mane",
+    "email": "member@example.com",
+    "linkedin": "https://www.linkedin.com/in/tanishq-mane-731259379?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "role": "Assistant Board Member",
+    "domain": "Android",
+    "yearOfStudy": "SY",
+    "yearOfPassing": 2027,
+    "bio": "Working in the Android domain and member in Android development.",
+    "social": {
+      "github": "https://github.com/tanishqmane01",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/assistant_board/tanishq.jpeg"
+  },
+  {
+    "id": "sy-12",
+    "name": "Omkar Bedarkar",
+    "email": "member@example.com",
+    "linkedin": "https://www.linkedin.com/in/omkar-bedarkar-166a2a35a/",
+    "role": "Assistant Board Member",
+    "domain": "Web Development",
+    "yearOfStudy": "SY",
+    "yearOfPassing": 2027,
+    "bio": "Aspiring Web Developer passionate about creating clean, functional, and engaging web experiences. Focused on writing efficient code and growing through practical development projects.",
+    "social": {
+      "github": "https://github.com/0mkarBedarkar",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/assistant_board/bedarkar.jpeg"
+  },
+  {
+    "id": "sy-13",
+    "name": "Nouman Haddiwale",
+    "email": "member@example.com",
+    "linkedin": "https://www.linkedin.com/in/nouman-haddiwale-247a21383?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "role": "Assistant Board Member",
+    "domain": "AI",
+    "yearOfStudy": "SY",
+    "yearOfPassing": 2027,
+    "bio": "AI/ML & Full-Stack Developer | Crafting intelligent applications, data-driven solutions, and high-performance user experiences.",
+    "social": {
+      "github": "https://github.com/Nouman2908",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/assistant_board/nouman.jpeg"
+  },
+ 
+  {
+    "id": "sy-15",
+    "name": "Soujanya Rodage",
+    "email": "member@example.com",
+    "linkedin": "https://www.linkedin.com/in/soujanyya-rodage-3a8508378",
+    "role": "Assistant Board Member",
+    "domain": "Web development",
+    "yearOfStudy": "SY",
+    "yearOfPassing": 2027,
+    "bio": "Passionate web developer with skills in creating responsive, user-friendly websites using modern web technologies. Eager to contribute strong problem-solving abilities and creativity to build efficient and engaging digital experiences.",
+    "social": {
+      "github": "https://github.com/SoujanyaRodage/work.git",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/assistant_board/soujanya.jpeg"
+  },
+  {
+    "id": "sy-16",
+    "name": "Omkar Sutar",
+    "email": "member@example.com",
+    "linkedin": "https://www.linkedin.com/in/omkar-sutar-779a12383?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "role": "President",
+    "domain": "Web Development",
+    "yearOfStudy": "SY",
+    "yearOfPassing": 2027,
+    "bio": "B.Tech CSE Student | Aspiring Web Developer passionate about creating responsive and user-friendly web applications. Skilled in HTML, CSS, JavaScript, PHP, and MySQL with a strong interest in full-stack development and modern web technologies.",
+    "social": {
+      "github": "https://github.com/sutaromkar2903",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/assistant_board/omkar.png"
+  },
+  {
+    "id": "sy-17",
+    "name": "Ushank Pamu",
+    "email": "member@example.com",
+    "linkedin": "www.linkedin.com/in/ushankpamu",
+    "role": "Assistant Board Member",
+    "domain": "Web Development",
+    "yearOfStudy": "SY",
+    "yearOfPassing": 2027,
+    "bio": "Computer Science Engineering student with a strong interest in Web Development and Software Engineering",
+    "social": {
+      "github": "https://github.com/Ushank07",
+      "portfolio": ""
+    },
+    "avatar": "/avatars/assistant_board/ushank.png"
+  }
+]

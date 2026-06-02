@@ -64,21 +64,21 @@ const Homepage = () => {
                                     <DropdownMenuContent className="bg-black border-gray-700 text-white">
                                         <DropdownMenuItem 
                                             className="cursor-pointer hover:bg-gray-800"
-                                            onClick={() => navigate("/members?board=TY")}
+                                            onClick={() => navigate("/members?board=SY")}
                                         >
-                                            Main Board
+                                            Main Board 2025-26
                                         </DropdownMenuItem>
                                         <DropdownMenuItem 
                                             className="cursor-pointer hover:bg-gray-800"
-                                            onClick={() => navigate("/members?board=SY")}
+                                            onClick={() => navigate("/members?board=TY")}
                                         >
-                                            Assistant Board
+                                            Main Board 2024-25
                                         </DropdownMenuItem>
                                         <DropdownMenuItem 
                                             className="cursor-pointer hover:bg-gray-800"
                                             onClick={() => navigate("/members?board=FY")}
                                         >
-                                            Last Year Board
+                                            Founder Board Members
                                         </DropdownMenuItem>
                                     </DropdownMenuContent>
                                 </DropdownMenu>
@@ -139,21 +139,27 @@ const Homepage = () => {
                                 <ul className="pl-4 space-y-3">
                                     <li 
                                         className="text-gray-300 cursor-pointer hover:text-white"
-                                        onClick={() => {navigate("/members?board=TY"); toggleMobileMenu();}}
+                                        onClick={() => {navigate("/members?board=SY"); toggleMobileMenu();}}
                                     >
-                                        Main Board
+                                        Main Board 2025-26
                                     </li>
                                     <li 
                                         className="text-gray-300 cursor-pointer hover:text-white"
-                                        onClick={() => {navigate("/members?board=SY"); toggleMobileMenu();}}
+                                        onClick={() => {navigate("/members?board=TY"); toggleMobileMenu();}}
                                     >
-                                        Assistant Board
+                                        Main Board 2024-25
+                                    </li>
+                                    <li 
+                                        className="text-gray-300 cursor-pointer hover:text-white"
+                                        onClick={() => {navigate("/members?board=AB"); toggleMobileMenu();}}
+                                    >
+                                        Assistant Board Members
                                     </li>
                                     <li 
                                         className="text-gray-300 cursor-pointer hover:text-white"
                                         onClick={() => {navigate("/members?board=FY"); toggleMobileMenu();}}
                                     >
-                                        Last Year Board
+                                        Founder Board Members
                                     </li>
                                 </ul>
                             </div>

@@ -201,21 +201,27 @@ const About = () => {
                 <DropdownMenuContent className="bg-black border-gray-700 text-white">
                   <DropdownMenuItem 
                     className="cursor-pointer hover:bg-gray-800"
-                    onClick={() => navigate("/members?board=TY")}
+                    onClick={() => navigate("/members?board=SY")}
                   >
-                    Main Board
+                    Main Board 2025-26
                   </DropdownMenuItem>
                   <DropdownMenuItem 
                     className="cursor-pointer hover:bg-gray-800"
-                    onClick={() => navigate("/members?board=SY")}
+                    onClick={() => navigate("/members?board=TY")}
                   >
-                    Assistant Board
+                    Main Board 2024-25
+                  </DropdownMenuItem>
+                  <DropdownMenuItem 
+                    className="cursor-pointer hover:bg-gray-800"
+                    onClick={() => navigate("/members?board=AB")}
+                  >
+                    Assistant Board Members
                   </DropdownMenuItem>
                   <DropdownMenuItem 
                     className="cursor-pointer hover:bg-gray-800"
                     onClick={() => navigate("/members?board=FY")}
                   >
-                    Last Year Board
+                    Founder Board Members
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
@@ -250,21 +256,21 @@ const About = () => {
               <ul className="pl-4 space-y-3">
                 <li 
                   className="text-gray-300 cursor-pointer hover:text-white"
-                  onClick={() => {handleBoardChange("TY"); toggleMobileMenu();}}
+                  onClick={() => {handleBoardChange("SY"); toggleMobileMenu();}}
                 >
-                  Main Board
+                  Main Board 2025-26
                 </li>
                 <li 
                   className="text-gray-300 cursor-pointer hover:text-white"
-                  onClick={() => {handleBoardChange("SY"); toggleMobileMenu();}}
+                  onClick={() => {handleBoardChange("TY"); toggleMobileMenu();}}
                 >
-                  Assistant Board
+                  Main Board 2024-25
                 </li>
                 <li 
                   className="text-gray-300 cursor-pointer hover:text-white"
                   onClick={() => {handleBoardChange("FY"); toggleMobileMenu();}}
                 >
-                  Last Year Board
+                  Founder Board Members
                 </li>
               </ul>
             </div>

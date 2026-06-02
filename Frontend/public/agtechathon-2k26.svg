@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-label="AGTechathon 2.0 2k26">
+  <rect width="900" height="500" fill="#fff"/>
+  <g transform="translate(58 162)">
+    <rect width="132" height="132" rx="14" fill="#050505"/>
+    <path d="M38 26c24 0 25 38 28 52 3-14 4-52 28-52 19 0 32 22 22 46-8 20-21 34-36 34-9 0-16-8-20-20-4 12-11 20-20 20-15 0-28-14-36-34-10-24 3-46 34-46z" fill="#fffdf7"/>
+  </g>
+  <text x="210" y="214" fill="#050505" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="900" letter-spacing="-3">AGTechathon</text>
+  <text x="794" y="214" fill="#050505" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="900">2.0</text>
+  <g transform="translate(210 242)">
+    <rect width="632" height="24" rx="2" fill="#52f452"/>
+    <rect y="34" width="632" height="24" rx="2" fill="#52f452"/>
+    <rect y="68" width="632" height="24" rx="2" fill="#52f452"/>
+    <g fill="#203025">
+      <rect x="128" width="24" height="24" rx="2"/>
+      <rect x="224" width="24" height="24" rx="2"/>
+      <rect x="320" width="24" height="24" rx="2"/>
+      <rect x="448" width="24" height="24" rx="2"/>
+      <rect x="576" width="24" height="24" rx="2"/>
+      <rect x="64" y="34" width="24" height="24" rx="2"/>
+      <rect x="288" y="34" width="24" height="24" rx="2"/>
+      <rect x="384" y="34" width="24" height="24" rx="2"/>
+      <rect x="512" y="34" width="24" height="24" rx="2"/>
+      <rect y="68" width="24" height="24" rx="2"/>
+      <rect x="96" y="68" width="24" height="24" rx="2"/>
+      <rect x="320" y="68" width="24" height="24" rx="2"/>
+      <rect x="608" y="68" width="24" height="24" rx="2"/>
+    </g>
+  </g>
+  <text x="836" y="300" fill="#050505" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="900" transform="rotate(-90 836 300)">2k26</text>
+</svg>

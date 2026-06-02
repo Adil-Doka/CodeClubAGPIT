@@ -35,11 +35,56 @@ interface Member {
   };
 }
 
+const boardConfig = {
+  SY: {
+    fileName: '/club_members_SY.json',
+    title: 'MAIN BOARD 2025-26',
+    navLabel: 'Main Board 2025-26',
+    subtitle: 'This section currently uses the previous assistant board members.',
+  },
+  TY: {
+    fileName: '/club_members_TY.json',
+    title: 'MAIN BOARD 2024-25',
+    navLabel: 'Main Board 2024-25',
+    subtitle: 'This section contains the previous main board members.',
+  },
+  AB: {
+    fileName: '/club_members_AB.json',
+    title: 'ASSISTANT BOARD MEMBERS',
+    navLabel: 'Assistant Board Members',
+    subtitle: 'Add your new assistant board member data in club_members_AB.json.',
+  },
+  FY: {
+    fileName: '/club_members_FY.json',
+    title: 'FOUNDER BOARD MEMBERS',
+    navLabel: 'Founder Board Members',
+    subtitle: 'Original board members from the previous cycle',
+  },
+} as const;
+
+const boardShowcase = [
+  {
+    title: 'Main Board 2025-26',
+    caption: 'Place your new 2025-26 board image here once you share it.',
+    image: '/25kmainboard.jpeg',
+  },
+  {
+    title: 'Main Board 2024-25',
+    caption: 'This section uses the previous main board archive.',
+    image: '/ogpeople.jpeg',
+  },
+  {
+    title: 'Founder Board Members',
+    caption: 'Add your founder board group image here if you want to replace the current one.',
+    image: '/students1.jpeg',
+  },
+];
+
 const Members = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const [members, setMembers] = useState<Member[]>([]);
-  const [selectedBoard, setSelectedBoard] = useState<string>("TY");
+  const [selectedBoard, setSelectedBoard] = useState<string>("SY");
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [loadedAvatars, setLoadedAvatars] = useState<Record<string, boolean>>({});
 
@@ -51,9 +96,10 @@ const Members = () => {
     const fetchMembers = async () => {
       try {
         const params = new URLSearchParams(location.search);
-        const board = params.get('board') || 'TY';
-        setSelectedBoard(board);
-        const fileName = `/club_members_${board}.json`;
+        const board = params.get('board') || 'SY';
+        const normalizedBoard = board in boardConfig ? board as keyof typeof boardConfig : 'SY';
+        setSelectedBoard(normalizedBoard);
+        const fileName = boardConfig[normalizedBoard].fileName;
 
         const response = await fetch(fileName);
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
@@ -87,12 +133,7 @@ const Members = () => {
   };
 
   const getBoardTitle = () => {
-    switch (selectedBoard) {
-      case "TY": return "MAIN BOARD MEMBERS";
-      case "SY": return "ASSISTANT BOARD MEMBERS";
-      case "FY": return "LAST YEAR BOARD MEMBERS";
-      default: return "MEMBERS";
-    }
+    return boardConfig[selectedBoard as keyof typeof boardConfig]?.title || 'MEMBERS';
   };
 
   const president = useMemo(() => members.find(member => member.role === "President"), [members]);
@@ -132,21 +173,27 @@ const Members = () => {
                   <DropdownMenuContent className="bg-black border-gray-700 text-white">
                     <DropdownMenuItem 
                       className="cursor-pointer hover:bg-gray-800"
-                      onClick={() => navigate("/members?board=TY")}
+                      onClick={() => navigate("/members?board=SY")}
                     >
-                      Main Board
+                      {boardConfig.SY.navLabel}
                     </DropdownMenuItem>
                     <DropdownMenuItem 
                       className="cursor-pointer hover:bg-gray-800"
-                      onClick={() => navigate("/members?board=SY")}
+                      onClick={() => navigate("/members?board=TY")}
                     >
-                      Assistant Board
+                      {boardConfig.TY.navLabel}
+                    </DropdownMenuItem>
+                    <DropdownMenuItem 
+                      className="cursor-pointer hover:bg-gray-800"
+                      onClick={() => navigate("/members?board=AB")}
+                    >
+                      {boardConfig.AB.navLabel}
                     </DropdownMenuItem>
                     <DropdownMenuItem 
                       className="cursor-pointer hover:bg-gray-800"
                       onClick={() => navigate("/members?board=FY")}
                     >
-                      Last Year Board
+                      {boardConfig.FY.navLabel}
                     </DropdownMenuItem>
                   </DropdownMenuContent>
                 </DropdownMenu>
@@ -181,21 +228,27 @@ const Members = () => {
                 <ul className="pl-4 space-y-3">
                   <li 
                     className="text-gray-300 cursor-pointer hover:text-white"
-                    onClick={() => {handleBoardChange("TY"); toggleMobileMenu();}}
+                    onClick={() => {handleBoardChange("SY"); toggleMobileMenu();}}
                   >
-                    Main Board (TY)
+                    {boardConfig.SY.navLabel}
                   </li>
                   <li 
                     className="text-gray-300 cursor-pointer hover:text-white"
-                    onClick={() => {handleBoardChange("SY"); toggleMobileMenu();}}
+                    onClick={() => {handleBoardChange("TY"); toggleMobileMenu();}}
                   >
-                    Assistant Board (SY)
+                    {boardConfig.TY.navLabel}
+                  </li>
+                  <li 
+                    className="text-gray-300 cursor-pointer hover:text-white"
+                    onClick={() => {handleBoardChange("AB"); toggleMobileMenu();}}
+                  >
+                    {boardConfig.AB.navLabel}
                   </li>
                   <li 
                     className="text-gray-300 cursor-pointer hover:text-white"
                     onClick={() => {handleBoardChange("FY"); toggleMobileMenu();}}
                   >
-                    Last Year Board (FY)
+                    {boardConfig.FY.navLabel}
                   </li>
                 </ul>
               </div>
@@ -213,6 +266,30 @@ const Members = () => {
         <h1 className="text-2xl md:text-xl lg:text-4xl font-semibold bg-clip-text text-transparent bg-gradient-to-b from-zinc-700 via-white to-zinc-700 dark:from-white dark:via-white dark:to-zinc-700 text-center ">
           {getBoardTitle()}
         </h1>
+        <p className="px-6 text-center text-sm md:text-base text-zinc-400">
+          {boardConfig[selectedBoard as keyof typeof boardConfig]?.subtitle}
+        </p>
+
+        <div className="w-full px-6 sm:px-16 md:px-24 lg:px-32 xl:px-40 py-4">
+          <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
+            {boardShowcase.map((board) => (
+              <div
+                key={board.title}
+                className="overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900/80 shadow-[0_12px_40px_rgba(0,0,0,0.35)]"
+              >
+                <img
+                  src={board.image}
+                  alt={board.title}
+                  className="h-56 w-full object-cover"
+                />
+                <div className="space-y-2 p-5">
+                  <h2 className="text-lg font-semibold text-white">{board.title}</h2>
+                  <p className="text-sm text-zinc-400">{board.caption}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
 
         {president && (
           <Card className="w-full max-w-3xl p-4 text-white bg-zinc-900 h-auto border-zinc-700 mx-8 sm:mx-10 md:mx-14">

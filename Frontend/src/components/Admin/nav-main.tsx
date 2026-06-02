@@ -17,29 +17,30 @@ import {
   SidebarMenuSubItem,
 } from "@/components/ui/sidebar"
 
+interface NavSubItem {
+  title: string
+  sectionKey: string
+  path?: string
+}
+
+interface NavItem extends NavSubItem {
+  icon?: LucideIcon
+  isActive?: boolean
+  items?: NavSubItem[]
+}
+
 export function NavMain({
   items,
   activeSection,
   setActiveSection,
 }: {
-  items: {
-    title: string
-    icon?: LucideIcon
-    isActive?: boolean
-    sectionKey: string
-    path?: string
-    items?: {
-      title: string
-      sectionKey: string
-      path?: string
-    }[]
-  }[]
+  items: NavItem[]
   activeSection: string
   setActiveSection: (section: string) => void
 }) {
   const navigate = useNavigate();
 
-  const handleNavigation = (item: any) => {
+  const handleNavigation = (item: NavItem | NavSubItem) => {
     if (item.path) {
       navigate(item.path);
     } else {
